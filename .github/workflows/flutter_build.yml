@@ -18,16 +18,16 @@ build:
         flutter-version: '3.29.0'
 
     - name: Install dependencies
-        run: flutter pub get
+      run: flutter pub get
 
     - name: Configure Firebase
-        run: flutterfire configure --project=$FIREBASE_PROJECT_ID --token=$FIREBASE_TOKEN --platforms=android --yes
+      run: flutterfire configure --project=$FIREBASE_PROJECT_ID --token=$FIREBASE_TOKEN --platforms=android --yes
 
     - name: Build APK
-        run: flutter build apk
+      run: flutter build apk
 
     - name: Upload APK
-        uses: actions/upload-artifact@v3
-        with:
+      uses: actions/upload-artifact@v3
+      with:
         name: app-release.apk
         path: build/app/outputs/flutter-apk/app-release.apk
