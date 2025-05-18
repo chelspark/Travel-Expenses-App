@@ -332,13 +332,13 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "workshop",
+      "name": "travel_expenses_app",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-05-18T05:25:05.850254Z",
+  "generated": "2025-05-18T07:14:14.963534Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/chelsea/Development/flutter",

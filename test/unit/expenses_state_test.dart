@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:workshop/models/expenseState.dart';
+import 'package:travel_expenses_app/models/expenseState.dart';
 
 void main() {
   test('addExpense should add to the list', () {

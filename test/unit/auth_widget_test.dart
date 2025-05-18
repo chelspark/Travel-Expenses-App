@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:firebase_auth_mocks/firebase_auth_mocks.dart';
 import 'package:flutter/material.dart';
-import 'package:workshop/auth_widget.dart';
+import 'package:travel_expenses_app/auth_widget.dart';
 
 void main() {
   testWidgets('Login Form renders and submits', (WidgetTester tester) async {

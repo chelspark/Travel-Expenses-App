@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 // import 'package:workshop/models/expense_model.dart';
-import 'package:workshop/models/expenseState.dart';
+import 'package:travel_expenses_app/models/expenseState.dart';
 
 class ExpenseItem extends StatelessWidget {
   const ExpenseItem({super.key, required this.eachExpense});

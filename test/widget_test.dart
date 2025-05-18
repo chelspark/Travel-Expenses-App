@@ -8,9 +8,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
-import 'package:workshop/main.dart';
-import 'package:workshop/models/expenseState.dart';
-import 'package:workshop/expenses.dart';
+import 'package:travel_expenses_app/main.dart';
+import 'package:travel_expenses_app/models/expenseState.dart';
+import 'package:travel_expenses_app/expenses.dart';
 
 void main() {
   testWidgets('Main Travel Expenses App loads correctly', (WidgetTester tester) async {

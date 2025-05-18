@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:workshop/models/expenseState.dart';
-import 'package:workshop/models/expense_utils.dart';
+import 'package:travel_expenses_app/models/expenseState.dart';
+import 'package:travel_expenses_app/models/expense_utils.dart';
 
 void main() {
   group('sumExpenses', () {

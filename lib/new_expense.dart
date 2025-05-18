@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 // import 'package:workshop/models/expense_model.dart';
 // import 'package:workshop/expenses.dart';
-import 'package:workshop/models/expenseState.dart';
+import 'package:travel_expenses_app/models/expenseState.dart';
 
 class NewExpense extends StatefulWidget {
   const NewExpense({super.key, required this.onAddExpense});

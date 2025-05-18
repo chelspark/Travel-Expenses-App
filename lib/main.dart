@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:workshop/auth_screen.dart';
-import 'package:workshop/expenses.dart';
-// import 'package:workshop/firebase_options.dart';
-import 'package:workshop/models/expenseState.dart';
+import 'package:travel_expenses_app/auth_screen.dart';
+import 'package:travel_expenses_app/expenses.dart';
+import 'package:travel_expenses_app/firebase_options.dart';
+import 'package:travel_expenses_app/models/expenseState.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -16,8 +16,16 @@ var myDarkColorScheme = ColorScheme.fromSeed(
   brightness: Brightness.dark
 );
 
+const fallbackOptions = FirebaseOptions(
+  apiKey: 'dummy',
+  appId: 'dummy',
+  messagingSenderId: 'dummy',
+  projectId: 'dummy',
+);
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
@@ -87,4 +95,3 @@ void main() async {
   );
 }
 
-//Expenses()

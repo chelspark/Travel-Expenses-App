@@ -105,50 +105,10 @@ In your project repo, create this file (or modify an existing one):
 
 Paste this sample workflow:
 
-        name: Build Flutter APK
-
-        on:
-        push:
-            branches:
-            - main
-
-        jobs:
-        build:
-            runs-on: ubuntu-latest
-
-            steps:
-            - uses: actions/checkout@v3
-
-            - name: Set up Flutter
-                uses: subosito/flutter-action@v2
-                with:
-                flutter-version: '3.19.1' # Or your version
-
-            - name: Install dependencies
-                run: flutter pub get
-
-            - name: Configure Firebase
-                run: flutterfire configure --project=$FIREBASE_PROJECT_ID --token=$FIREBASE_TOKEN --platforms=android --yes
-
-            - name: Build APK
-                run: flutter build apk
-
-            - name: Upload APK
-                uses: actions/upload-artifact@v3
-                with:
-                name: app-release.apk
-                path: build/app/outputs/flutter-apk/app-release.apk
-
-📝 If your Flutter project is inside a sub-folder (e.g., client/), add:
-
-        defaults:
-        run:
-            working-directory: client
-
-Just after jobs: build:.
+      reference this example: https://github.com/stevecassidy/harry-potter-quiz-app/blob/main/.github/workflows/build.yaml
 
 
-6. Test it!
+1. Test it!
 - 1. Commit and push your changes to the main branch.
 
 - 2. Go to the "Actions" tab in GitHub.

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:workshop/auth_widget.dart';
-import 'package:workshop/expense_list.dart';
+import 'package:travel_expenses_app/auth_widget.dart';
+import 'package:travel_expenses_app/expense_list.dart';
 // import 'package:workshop/models/expense_model.dart';
-import 'package:workshop/new_expense.dart';
-import 'package:workshop/models/expenseState.dart';
+import 'package:travel_expenses_app/new_expense.dart';
+import 'package:travel_expenses_app/models/expenseState.dart';
 
 
 class Expenses extends StatefulWidget {
