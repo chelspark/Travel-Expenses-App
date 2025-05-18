@@ -25,10 +25,11 @@ samples, guidance on mobile development, and a full API reference.
 5. Configure your local project to link to the Firebase project you just created: **flutterfire configure**
    1. This will ask you whihc platforms you want to configure and creates some configuration files in those sub-folders
 6. Add firebase auth to th project dependencies: **flutter pub add firebase auth**
-7. Add the code to call the firebase auth services
-8. add firebase auth mocks: **flutter pub add firebase_auth_mocks**
+7. Add: **flutter pub add provider** if needed.
+8. Add the code to call the firebase auth services
+9. add firebase auth mocks: **flutter pub add firebase_auth_mocks**
    1. [flutter pub add firebase_auth_mocks](https://pub.dev/packages/firebase_auth_mocks/install)
-9. add firebase core: **flutter pub add firebase_core**
+10. add firebase core: **flutter pub add firebase_core**
    1.  https://firebase.google.com/docs/flutter/setup?platform=ios
 
 
