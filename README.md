@@ -108,11 +108,18 @@ Paste this sample workflow:
       reference this example: https://github.com/stevecassidy/harry-potter-quiz-app/blob/main/.github/workflows/build.yaml
 
 
-1. Test it!
+6. Test it!
 - 1. Commit and push your changes to the main branch.
 
 - 2. Go to the "Actions" tab in GitHub.
 
 - 3. Wait for the build to finish.
 
-- 4. At the bottom of the completed run, you should see a downloadable app-release.apk.
+- 4. At the bo
+
+7. Download generated APK
+You should be able to download the APK by viewing the successful workflow page on GitHub:
+- click on Actions
+- then click on the build workflow
+- the APK download should be at the buttom of that page
+
