@@ -1,0 +1,1 @@
+ /Users/chelsea/travel_expenses_app/.dart_tool/flutter_build/b30da5202afe85c77ad7361b90237507/native_assets.json: 

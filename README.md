@@ -20,15 +20,15 @@ samples, guidance on mobile development, and a full API reference.
 1. Set up a Firebase project via the Firebase console https://console.firebae.google.com
 2. Install the firebase command line tool https://firebase.google.com/docs/cli (this is done globally)
    1. this is already done 
-3. Login with the firebase cli: firebase login
-4. Install the flutterfire command line tools: dart pub global activate flutterfire_cli
-5. Configure your local project to link to the Firebase project you just created: flutterfire configure
+3. Login with the firebase cli: **firebase login**
+4. Install the flutterfire command line tools: **dart pub global activate flutterfire_cli**
+5. Configure your local project to link to the Firebase project you just created: **flutterfire configure**
    1. This will ask you whihc platforms you want to configure and creates some configuration files in those sub-folders
-6. Add firebase auth to th project dependencies: flutter pub add firebase auth
+6. Add firebase auth to th project dependencies: **flutter pub add firebase auth**
 7. Add the code to call the firebase auth services
-8. add firebase auth mocks: flutter pub add firebase_auth_mocks
+8. add firebase auth mocks: **flutter pub add firebase_auth_mocks**
    1. [flutter pub add firebase_auth_mocks](https://pub.dev/packages/firebase_auth_mocks/install)
-9. add firebase core: flutter pub add firebase_core
+9. add firebase core: **flutter pub add firebase_core**
    1.  https://firebase.google.com/docs/flutter/setup?platform=ios
 
 
@@ -46,6 +46,7 @@ On your local machine (Terminal), run:
 
         firebase login:ci
 
+(it generates a user-specific token and it generates a new, unique token every time run it)
 - It will open a browser window to log in to Firebase.
 
 - After login, you'll get a long token string like:
