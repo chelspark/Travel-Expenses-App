@@ -100,7 +100,9 @@ FIREBASE_PROJECT_ID	   (your Firebase Project ID)
 
 
 5. Create GitHub Action Workflow
-In your project repo, create this file (or modify an existing one):
+In your project repo,
+   - Go to Actions
+   - Set up a workflow
 
         .github/workflows/flutter_build.yml
 
@@ -109,7 +111,7 @@ Paste this sample workflow:
       reference this example: https://github.com/stevecassidy/harry-potter-quiz-app/blob/main/.github/workflows/build.yaml
 
 
-6. Test it!
+1. Test it!
 - 1. Commit and push your changes to the main branch.
 
 - 2. Go to the "Actions" tab in GitHub.
