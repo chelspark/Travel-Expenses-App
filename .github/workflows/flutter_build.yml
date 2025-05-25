@@ -76,4 +76,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: latest-apk-build
-          path: build/app/outputs/flutter-apk/*.apk
+          path: build/app/outputs/flutter-apk/*.apk   
+                # subfolder/build/app/outputs/flutter-apk/*.apk
+                # if your flutter project is in a sub-directory of this repo
